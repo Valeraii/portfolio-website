@@ -46,11 +46,11 @@ const about = () => {
                 <div className="grid w-full grid-cols-8 gap-16  sm:gap-8">
                     <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8 md:p-4'>
                         <p className="font-medium">
-                            Hi, I'm Valerie, a recent Computer Systems Technology graduate from BCIT with a passion for creating beautiful, functional, 
+                            Hi, I’m Valerie, a recent Computer Systems Technology graduate from BCIT with a passion for creating beautiful, functional, 
                             and user-centered digital experiences.  I strive to make a positive impact in the world of technology and design and I am continually seeking to innovate and create solutions that bring value to users and clients alike.
                         </p>
                         <p className="font-medium my-4">
-                            When I'm not immersed in coding or design, you can often find me exploring new hobbies, playing video games, or volunteering for causes that resonate with me. These experiences help shape my approach to problem-solving and creativity, allowing me to bring a unique perspective to every project.
+                            When I’m not immersed in coding or design, you can often find me exploring new hobbies, playing video games, or volunteering for causes that resonate with me. These experiences help shape my approach to problem-solving and creativity, allowing me to bring a unique perspective to every project.
                         </p>
                         <p className='font-medium'>
                             I am excited about the opportunity to connect with fellow professionals, collaborate on exciting projects, and contribute to the advancement of technology and design. Thank you for visiting my portfolio website, and I look forward to the possibility of working together.
