@@ -44,7 +44,7 @@ const about = () => {
             <Layout className="pt-16">
                 <AnimatedText text="Biography" className='mb-16 lg:!text-8xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
                 <div className="grid w-full grid-cols-8 gap-16  sm:gap-8">
-                    <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8 md:p-4'>
+                    <div className='col-span-4 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8 md:p-4'>
                         <p className="font-medium">
                             Hi, I’m Valerie, a recent Computer Systems Technology graduate from BCIT with a passion for creating beautiful, functional, 
                             and user-centered digital experiences.  I strive to make a positive impact in the world of technology and design and I am continually seeking to innovate and create solutions that bring value to users and clients alike.
