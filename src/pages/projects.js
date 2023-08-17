@@ -5,7 +5,10 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import ecommerce from '../../public/images/projects/ecommerce.png'
+import snews from '../../public/images/projects/snews.png'
+import hippo from '../../public/images/projects/hippo.png'
+import wordjam from '../../public/images/projects/wordjam.png'
 import { motion } from 'framer-motion'
 
 const FramerImage = motion(Image);
@@ -80,52 +83,41 @@ export const projects = () => {
         </Head>
         <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
             <Layout className='pt-16'>
-                <AnimatedText text="Imagination Trumps Knowledge!" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
+                {/* <AnimatedText text="Imagination Trumps Knowledge!" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/> */}
                 <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                     <div className='col-span-12'>
                         <FeaturedProject 
-                            title="Crypto Screener Application"
-                            img={project1}
-                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
-                            link="/"
-                            github="/"
+                            title="Full Stack Ecommerce Website"
+                            img={ecommerce}
+                            summary="A full stack ecommerce app, including an intuitive admin panel for seamless product management and order tracking and an engaging and user-friendly storefront interface to showcase products and facilitate seamless customer purchasing experiences."
+                            link="https://ecommerce-store-opal.vercel.app"
+                            github="https://github.com/Valeraii/ecommerce-store"
                             type="Featured Project"/>
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                             title="Crypto Screener Application"
-                             img={project1}
-                             link="/"
-                             github="/"
+                             title="CRM Platform"
+                             img={hippo}
+                             link="https://admin.rollahippo.org"
+                             github="https://github.com/DWSimon3/BCIT-ROLLERS"
                              type="Project"
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                             title="Crypto Screener Application"
-                             img={project1}
-                             link="/"
-                             github="/"
+                             title="SNEWS Website"
+                             img={snews}
+                             link="https://snews2.org"
+                             github="https://github.com/bwp2bwp/BCIT_SNEWS_website"
                              type="Project"
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                             title="Crypto Screener Application"
-                             img={project1}
+                             title="WordJam Puzzle Game"
+                             img={wordjam}
                              link="/"
-                             github="/"
-                             type="Project"
-                        />
-                    </div>
-                    <div className='col-span-6 sm:col-span-12'>
-                        <Project 
-                             title="Crypto Screener Application"
-                             img={project1}
-                             link="/"
-                             github="/"
+                             github="https://github.com/Valeraii/2800-202205-BBY2.git"
                              type="Project"
                         />
                     </div>

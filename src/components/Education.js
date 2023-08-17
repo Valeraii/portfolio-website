@@ -46,28 +46,16 @@ const Education = () => {
                     md:w-[2px] md:left-[30px] xs:left-[20px]'/>
             <ul className= 'w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details 
-                   type="Bachelor Of Science In Computer Science"
-                   time="2016-2020"
-                   place="Massachusetts Institute Of Technology (MIT)"
-                   info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+                   type="Computer Systems Technology Diploma"
+                   time="2021-2023"
+                   place="British Columbia Institute of Technology (BCIT)"
+                   info="Relevant courses included Data Structures and Algorithms, Information Systems, and Computer Architecture."
                 />
                  <Details 
-                   type="Bachelor Of Science In Computer Science"
-                   time="2016-2020"
-                   place="Massachusetts Institute Of Technology (MIT)"
-                   info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
-                />
-                  <Details 
-                   type="Bachelor Of Science In Computer Science"
-                   time="2016-2020"
-                   place="Massachusetts Institute Of Technology (MIT)"
-                   info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
-                />
-                  <Details 
-                   type="Bachelor Of Science In Computer Science"
-                   time="2016-2020"
-                   place="Massachusetts Institute Of Technology (MIT)"
-                   info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+                   type="Bachelor Of Arts in Criminology"
+                   time="2017-2021"
+                   place="Simon Fraser University (SFU)"
+                   info="Relevant courses included Intro to Computer Science and Discrete Mathemetics."
                 />
             </ul>
         </div>

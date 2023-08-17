@@ -21,16 +21,16 @@ export default function Home() {
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
           <Layout className='pt-0 md:pt-16 sm:pt-8'>
             <div className="flex items-center justify-between w-full lg:flex-col">
-              <div className='w-1/2 md:w-full'>
+              <div className='flex items-center justify-center w-1/2 md:w-[80%]'>
                 {/* when priority is true, image will be considered high priority and preload. Lazy loading automatically disabled */}
                 {/* sizes: provides information about how wide the image will be at different breakpoints */}
-                <Image src={profilePic} alt="Val" className='w-full h-auto lg:hidden md:inline-block md:w-full' priority sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw' />
+                <Image src={profilePic} alt="Val" className='w-[80%] h-auto lg:hidden md:inline-block md:w-[80%] md:pb-4' priority sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw' />
               </div>
               <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
-                <AnimatedText text="Turning Vision Into Reality With Code And Design." className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'/>
+                <AnimatedText text="Bringing Ideas to Life with the Power of Coding and Creative Design" className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'/>
                 <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                  As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-                  Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+                  As a skilled full-stack developer, my passion lies in turning ideas into cutting edge web applications that stand out. 
+                  Check out my latest projects showcasing my expertise in React.js and web development.
                 </p>
 
                 {/* Resume and contact buttons */}
@@ -53,11 +53,6 @@ export default function Home() {
             </div>
           </Layout>
           <HireMe />
-
-          {/* lightbulb image */}
-          <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
-            <Image src={lightBulb} alt="Val" className='w-full h-auto'/>
-          </div>
       </main>
     </>
   )
