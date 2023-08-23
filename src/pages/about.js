@@ -2,7 +2,7 @@ import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from "../../public/images/profile/developer-pic-2.jpg"
+import profilePic from "../../public/images/profile/1.jpg"
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import { React, useRef, useEffect } from 'react'
 import Experience from '@/components/Experience'
@@ -50,7 +50,7 @@ const about = () => {
                             and user-centered digital experiences.  I strive to make a positive impact in the world of technology and design and I am continually seeking to innovate and create solutions that bring value to users and clients alike.
                         </p>
                         <p className="font-medium my-4">
-                            When I’m not immersed in coding or design, you can often find me exploring new hobbies, playing video games, or volunteering for causes that resonate with me. These experiences help shape my approach to problem-solving and creativity, allowing me to bring a unique perspective to every project.
+                            When I’m not immersed in coding or design, you can often find me exploring new hobbies, playing video games, or going on long walks with my 3 dogs. These experiences help shape my approach to problem-solving and creativity, allowing me to bring a unique perspective to every project.
                         </p>
                         <p className='font-medium'>
                             I am excited about the opportunity to connect with fellow professionals, collaborate on exciting projects, and contribute to the advancement of technology and design. Thank you for visiting my portfolio website, and I look forward to the possibility of working together.
