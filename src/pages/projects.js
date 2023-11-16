@@ -9,6 +9,7 @@ import ecommerce from '../../public/images/projects/ecommerce.png'
 import snews from '../../public/images/projects/snews.png'
 import hippo from '../../public/images/projects/hippo.png'
 import wordjam from '../../public/images/projects/wordjam.png'
+import journal from '../../public/images/projects/journal.png'
 import { motion } from 'framer-motion'
 
 const FramerImage = motion(Image);
@@ -93,6 +94,15 @@ export const projects = () => {
                             link="https://ecommerce-store-opal.vercel.app"
                             github="https://github.com/Valeraii/ecommerce-store"
                             type="Featured Project"/>
+                    </div>
+                    <div className='col-span-6 sm:col-span-12'>
+                        <Project 
+                             title="Daily Journal App"
+                             img={journal}
+                             link="https://play.google.com/store/apps/details?id=com.anonymous.journalApp&pcampaignid=web_share"
+                             github="https://github.com/Valeraii/journal-app"
+                             type="Project"
+                        />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
